@@ -5,7 +5,7 @@ use std::{
   time::Duration
 };
 
-use rest_api::ThreadPool;
+use sienna::ThreadPool;
 fn main() {
   const LOCAL_HOST: &str = "127.0.0.1:7878";
 
